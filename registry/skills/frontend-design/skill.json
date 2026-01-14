@@ -1,0 +1,22 @@
+{
+  "id": "frontend-design",
+  "name": "Frontend Design",
+  "description": "UI and UX styling rules for frontend changes",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "frontendDir",
+      "label": "Which frontend directory should this skill cover?",
+      "type": "path",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "target": "ai/skills/frontend-design-skill.md",
+      "template": "templates/skill.md.hbs"
+    }
+  ],
+  "agentsSnippetTemplate": "templates/agents.snippet.md.hbs",
+  "activationRulesTemplate": "templates/activation.rules.md.hbs"
+}

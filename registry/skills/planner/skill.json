@@ -1,0 +1,14 @@
+{
+  "id": "planner",
+  "name": "Planner",
+  "description": "Adds plan-mode workflow rules",
+  "version": "1.0.0",
+  "questions": [],
+  "outputs": [
+    {
+      "target": "ai/skills/planner-skill.md",
+      "template": "templates/skill.md.hbs"
+    }
+  ],
+  "agentsSnippetTemplate": "templates/agents.snippet.md.hbs"
+}

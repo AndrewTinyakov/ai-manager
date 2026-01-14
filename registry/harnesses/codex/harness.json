@@ -1,0 +1,11 @@
+{
+  "id": "codex",
+  "name": "OpenAI Codex CLI",
+  "version": "1.0.0",
+  "outputs": [
+    {
+      "target": "AGENTS.md",
+      "template": "templates/AGENTS.md.hbs"
+    }
+  ]
+}

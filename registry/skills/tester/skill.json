@@ -1,0 +1,15 @@
+{
+  "id": "tester",
+  "name": "Tester",
+  "description": "Testing strategy and coverage guidance",
+  "version": "1.0.0",
+  "questions": [],
+  "outputs": [
+    {
+      "target": "ai/skills/tester-skill.md",
+      "template": "templates/skill.md.hbs"
+    }
+  ],
+  "agentsSnippetTemplate": "templates/agents.snippet.md.hbs",
+  "activationRulesTemplate": "templates/activation.rules.md.hbs"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "code-review",
+  "name": "Code Review",
+  "description": "Review changes for risks, regressions, and test gaps",
+  "version": "1.0.0",
+  "questions": [],
+  "outputs": [
+    {
+      "target": "ai/skills/code-review-skill.md",
+      "template": "templates/skill.md.hbs"
+    }
+  ],
+  "agentsSnippetTemplate": "templates/agents.snippet.md.hbs",
+  "activationRulesTemplate": "templates/activation.rules.md.hbs"
+}

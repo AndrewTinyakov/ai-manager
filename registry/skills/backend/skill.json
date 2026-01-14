@@ -1,0 +1,22 @@
+{
+  "id": "backend",
+  "name": "Backend",
+  "description": "Backend architecture, API, and data access guidance",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "backendDir",
+      "label": "Which backend directory should this skill cover?",
+      "type": "path",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "target": "ai/skills/backend-skill.md",
+      "template": "templates/skill.md.hbs"
+    }
+  ],
+  "agentsSnippetTemplate": "templates/agents.snippet.md.hbs",
+  "activationRulesTemplate": "templates/activation.rules.md.hbs"
+}

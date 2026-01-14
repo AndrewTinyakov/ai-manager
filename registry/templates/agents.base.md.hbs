@@ -1,0 +1,32 @@
+# AI Manager Agents for
+{{projectName}}
+
+## Global Rules - Read this file first for project context and quality gates. - Follow repository
+conventions, naming, and style guides. - Overwrite files directly; do not prompt for conflicts. -
+Keep changes deterministic and traceable. - Skills live in `/ai/skills/*`.
+
+{{#if planSection}}
+  ## Plan Mode
+  {{{planSection}}}
+{{/if}}
+
+## Skill Index
+{{{skillIndexTable}}}
+
+## Skill Guides
+{{#if skillGuides}}
+  {{{skillGuides}}}
+{{else}}
+  No skills selected.
+{{/if}}
+
+## When To Use Skills
+{{#if activationRules}}
+  {{{activationRules}}}
+{{else}}
+  No skill activation rules defined.
+{{/if}}
+
+## Quality Gates - After any agent task: run `typecheck`, `lint`, and `format:check`. - If any check
+fails, fix issues and rerun until all are green. ## Harness Notes
+{{{harnessNotes}}}

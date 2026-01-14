@@ -1,0 +1,11 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "version": "1.0.0",
+  "outputs": [
+    {
+      "target": ".cursor/rules/ai-manager.mdc",
+      "template": "templates/ai-manager.mdc.hbs"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "opencode",
+  "name": "OpenCode",
+  "version": "1.0.0",
+  "outputs": [
+    {
+      "target": "AGENTS.md",
+      "template": "templates/AGENTS.md.hbs"
+    }
+  ]
+}

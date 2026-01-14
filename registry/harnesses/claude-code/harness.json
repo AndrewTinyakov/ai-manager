@@ -1,0 +1,11 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "version": "1.0.0",
+  "outputs": [
+    {
+      "target": "CLAUDE.md",
+      "template": "templates/CLAUDE.md.hbs"
+    }
+  ]
+}
